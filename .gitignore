@@ -1,0 +1,31 @@
+# Ignore virtual environment folder
+venv/
+
+# Ignore all Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore large files that exceed GitHub's size limits (e.g., .dylib, .so files, etc.)
+venv/lib/python3.12/site-packages/pyarrow/libarrow.1900.dylib
+venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.dylib
+
+# Ignore log files
+*.log
+
+# Ignore the .env file (if using for environment variables)
+.env
+
+# Ignore other common large files (if applicable)
+*.zip
+*.tar.gz
+*.tar
+*.tar.bz2
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore system files (Mac, Windows, etc.)
+.DS_Store
+Thumbs.db
