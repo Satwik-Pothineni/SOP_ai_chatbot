@@ -12,6 +12,12 @@ This project is a **Generative AI-powered Chatbot** trained on internal **Standa
 - **RAG Pipeline**: 
   - Implements a **Retrieval-Augmented Generation (RAG)** pipeline using **FAISS** for accurate and contextually relevant responses.
 
+- **Data Extraction & Processing**:
+  - **Extraction**: Handled using the **Docling** library.
+  - **Chunking Strategy**: Utilizes **semantic chunking** to ensure meaningful text segments.
+  - **Query Expansion Strategy**: Applied to enhance retrieval accuracy.
+  - **Confidential Data**: The exact **DOCX documents** used for training cannot be shared as they contain confidential information. These documents exist in **various structures**, which were preprocessed accordingly.
+
 - **User Interface**: 
   - Built with **Streamlit** for an intuitive and interactive experience.
 
